@@ -45,5 +45,3 @@ The interactive reference panel outlines key security training vectors:
 ## ⚖️ Disclaimer
 This laboratory repository is explicitly designed for educational research, internal technical group training, and legitimate offensive evaluation exercises. Do not host or run this software on untrusted external public networks.
 ```
-
-```
