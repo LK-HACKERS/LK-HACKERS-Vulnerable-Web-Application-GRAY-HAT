@@ -16,6 +16,9 @@ pkg update && pkg upgrade -y
 # Install Python environment dependencies
 pkg install python -y
 
+# clone the repository
+git clone https://github.com/LK-HACKERS/LK-HACKERS-Vulnerable-Web-Application-GRAY-HAT.git
+
 ```
 ### Dependency Installation
 Clone the repository and install the minimal required routing dependencies:
