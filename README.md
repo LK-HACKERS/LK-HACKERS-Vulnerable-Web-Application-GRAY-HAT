@@ -47,4 +47,35 @@ The interactive reference panel outlines key security training vectors:
  3. **Exfiltration Simulation**: Emulating credential transfers using modern Fetch API requests to dispatch cookies to listening services.
 ## ⚖️ Disclaimer
 This laboratory repository is explicitly designed for educational research, internal technical group training, and legitimate offensive evaluation exercises. Do not host or run this software on untrusted external public networks.
+
+
+## KALI LINUX SETUP
+
+## 🛠️ Installation & Setup (Kali Linux)
+
+Since Kali Linux natively includes Python 3 and Pip package management, setup is straightforward. Follow the steps below using your terminal emulator:
+
+### 1. Install Dependencies
+Navigate into your cloned project repository directory and install the required Flask web framework routing engine:
+```bash
+pip3 install Flask
+
+```
+*Note: If your Kali system environment configuration prompts an externally-managed-environment restriction error, use the system override flag instead:*
+```bash
+pip3 install Flask --break-system-packages
+
+```
+### 2. Run the Laboratory
+Initialize the core Python service file to launch the training suite:
+```bash
+python3 app.py
+
+```
+### 🌐 Network Access
+Once executed, the automation framework will automatically trigger Kali's default browser (Firefox) to open the target testing platform instantly. You can also connect manually via these endpoints:
+ * **Target Web Application**: http://127.0.0.1:8080/
+ * **Hacker Monitoring Dashboard**: http://127.0.0.1:8080/hacker-panel
+```
+
 ```
