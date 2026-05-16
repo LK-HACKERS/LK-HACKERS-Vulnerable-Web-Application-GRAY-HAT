@@ -1,6 +1,6 @@
 # LK-HACKERS-Vulnerable-Web-Application-GRAY-HAT 
 
-A lightweight, standalone Reflected Cross-Site Scripting (XSS) laboratory environment built with Flask. This project is specifically configured to run natively inside mobile terminal sandboxes like **Termux** as well as desktop environments (Linux, Windows, macOS) without triggering template processing errors.
+A lightweight, standalone Reflected Cross-Site Scripting (XSS) laboratory environment built with Flask. This project is specifically configured to run natively inside mobile terminal sandboxes like **Termux** as well as desktop environments **(Linux, Windows, macOS)** without triggering template processing errors.
 
 The repository provides a dual-interface testing suite: a vulnerable client-side mock retail store and an attacker exfiltration monitoring control panel.
 
